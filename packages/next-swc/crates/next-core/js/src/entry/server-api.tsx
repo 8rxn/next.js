@@ -7,7 +7,7 @@ import 'next/dist/server/node-polyfill-fetch.js'
 import { parse as parseQuery } from 'node:querystring'
 import { parse as parseUrl } from 'node:url'
 
-import { apiResolver } from 'next/dist/server/api-utils/node'
+import { apiResolver } from 'next/dist/server/api-utils/node/api-resolver'
 import {
   NodeNextRequest,
   NodeNextResponse,
